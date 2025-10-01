@@ -39,7 +39,7 @@ function init() {
 
   //箱3の表示設定
   const box3Geometry = new THREE.BoxGeometry(4, 4, 4);
-  const box3Material = new THREE.MeshLambertMaterial({ color: 0xFF8000});
+  const box3Material = new THREE.MeshLambertMaterial({ color: 0x0000ff});
   const box3 = new THREE.Mesh(box3Geometry,box3Material);
   box3.position.x = -10;
   box3.position.y = 6;
